@@ -14,19 +14,19 @@ optional arguments:
 ```
 
 ### Examples
-1. Generate a string of length 5
+* Generate a string of length 5
 ```
 python strgen.py -l 5
 
 aaaaa
 ```
-2. Generate a random alphanumeric string of length 10
+* Generate a random alphanumeric string of length 10
 ```
 python strgen.py -r -l 10
 
 gc0im7pmNy
 ```
-3. Generate 5 random alphanumeric strings of length 7
+* Generate 5 random alphanumeric strings of length 7
 ```
 python strgen.py -l 7 -n 5 -r
 
