@@ -13,7 +13,7 @@ def get_string(length, use_random_chars):
     return ''.join(get_char(use_random_chars) for _ in xrange(length))
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-l', type=int, help='Length of desired string. Required argument.', required=True)
+parser.add_argument('-l', type=int, help='Length of desired strings. Required argument.', required=True)
 parser.add_argument('-n', type=int, help='Number of desired strings. Defaults to 1.', default=1)
 parser.add_argument('-r', help='Use random alphanumeric characters. Defaults to false.', action='store_true')
 args = parser.parse_args()

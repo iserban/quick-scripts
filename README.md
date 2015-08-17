@@ -8,7 +8,7 @@ usage: strgen.py [-h] -l L [-n N] [-r]
 
 optional arguments:
   -h, --help  show this help message and exit
-  -l L        Length of desired string. Required argument.
+  -l L        Length of desired strings. Required argument.
   -n N        Number of desired strings. Defaults to 1.
   -r          Use random alphanumeric characters. Defaults to false.
 ```
